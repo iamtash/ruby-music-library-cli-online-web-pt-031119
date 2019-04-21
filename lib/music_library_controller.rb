@@ -24,7 +24,7 @@ class MusicLibraryController
 
       case response
         when "list songs"
-          self.list_songs
+          list_songs
         when "list artists"
           self.list_artists
         when "list genres"
